@@ -1,19 +1,29 @@
-body {
-    font-family: sans-serif;
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
-h1 {
-    color: blue;
+header,
+footer {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: white;
+    border-radius: 999px;
+    color: #333333;
+    text-decoration: none;
 }
 
 h2 {
-    border-bottom: 2px solid black;
-    padding-bottom: 5px;
+    margin-top: 40px;
 }
-table, th, td {
-    border: 1px solid #333333;
-}
-.favorite {
-    color: orange;
-    font-weight: bold;
+
+th,
+td {
+    padding: 8px;
 }
