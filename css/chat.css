@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.chat-area {
+    padding: 10px;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.other {
+    justify-content: flex-start;
+}
+
+.me {
+    justify-content: flex-end;
+}
+
+.bubble {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 70%;
+}
+
+.me .bubble {
+    background-color: #aee1ff;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 15px;
+}

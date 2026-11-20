@@ -9,11 +9,12 @@
 <body>
 
     <header>
-        <h1>HY</h1>
+        <h1>HA</h1>
 
         <nav>
             <a href="#favorite">好きなもの</a>
             <a href="#schedule">1週間の予定</a>
+            <a href="#ask">質問コーナー</a>
         </nav>
     </header>
 
@@ -22,7 +23,7 @@
 
         <h2 id="favorite">好きなもの</h2>
         <img src="photo/download.webp" alt="ねこの画像">
-
+        
         <ul>
             <li class="favorite">犬</li>
             <li>ラーメン</li>
@@ -51,11 +52,22 @@
         </table>
 
         <p>最近はGitHubの勉強をしています。</p>
+
+        <h2 id="ask">質問コーナー</h2>
+        <p>名前を入れて、ボタンを押してください。</p>
+
+        <input type="text" id="guest-name">
+
+        <button onclick="greet()">あいさつする</button>
+
+        <p id="reply"></p>
+
     </main>
 
     <footer>
         © 2026 HY
     </footer>
 
+    <script src="js/main.js"></script>
 </body>
 </html>
